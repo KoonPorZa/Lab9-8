@@ -34,8 +34,7 @@ int main(void) {
     printf("4.Exit Program\n");
     printf("----------------------------------------\n");
     printf("Please Enter Number [ 1 - 4 ] : ");
-    scanf("%d",&choose);
-    printf("\n");
+    scanf("%d",&choose); printf("\n");
     switch(choose) {
       case 1 : pow_positive(); break;
       case 2 : pow_negative(); break;
